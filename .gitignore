@@ -1,0 +1,21 @@
+# Ignore compiled object files
+*.o
+*.d
+*.ko
+
+# Ignore module dependency files and other build artifacts
+*.mod.c
+*.order
+*.symvers
+*.cmd
+
+# Ignore temporary files and directories
+*.tmp
+*.bak
+*~
+*.swp
+.DS_Store
+
+# Ignore the build directory if used (optional)
+build/
+
