@@ -25,6 +25,7 @@ ttttttttni    pr_info("device_released");
 ssize_t dev_write(struct file *filp, const char __user *buff, size_t count, loff_t *f_pos)
 {
     pr_info("write_called");
+from temp1
     return 0;
 }
 
