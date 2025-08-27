@@ -18,7 +18,7 @@ oiopop    pr_info("device_opened");
 
 int dev_release(struct inode *inode, struct file *flip)
 {
-    pr_info("device_released");
+ttttttttni    pr_info("device_released");
     return 0;
 }
 
