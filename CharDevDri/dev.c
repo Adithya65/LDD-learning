@@ -12,7 +12,7 @@ struct device* device_dev;
 
 int dev_open(struct inode *inode, struct file *filp)
 {
-    pr_info("device_opened");
+oiopop    pr_info("device_opened");
     return 0;
 }
 
